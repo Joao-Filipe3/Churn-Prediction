@@ -42,7 +42,7 @@ This model helps companies:
 
 ---
 
-## 📊 Results (Random Forest)
+## Results (Random Forest)
 
 | Metric            | Churn = 1 (Yes) |
 |-------------------|-----------------|
@@ -50,8 +50,8 @@ This model helps companies:
 | Recall (Sensitivity) | 87%          |
 | Accuracy Overall  | 86%             |
 
-> ✅ **High recall means we correctly identified most churners**  
-> ✅ **High precision means we made few false churn predictions**
+> **High recall means we correctly identified most churners**  
+> **High precision means we made few false churn predictions**
 
 ---
 
@@ -86,6 +86,13 @@ Test ensemble methods like XGBoost or LightGBM
 Deploy the model using Flask or Streamlit
 
 Build an interactive dashboard for business users
+
+---
+
+## Dataset Source
+
+- This project uses the Orange Telecom Churn Dataset, available on Kaggle.
+- The data includes customer profiles and churn information, already cleaned and split into training (churn-bigml-80.csv) and test (churn-bigml-20.csv) sets.
 
 ---
 

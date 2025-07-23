@@ -78,7 +78,7 @@ This model helps companies:
 
 ---
 
-💡 Future Improvements
+### 💡 Future Improvements
 Implement SMOTE or other oversampling techniques
 
 Test ensemble methods like XGBoost or LightGBM
@@ -104,4 +104,4 @@ Data Science Enthusiast | Machine Learning Practitioner
 
 ---
 
-### ⭐ If this project inspired you or helped, feel free to leave a star! :)
+⭐ If this project inspired you or helped, feel free to leave a star! :)

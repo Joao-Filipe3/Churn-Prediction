@@ -78,7 +78,7 @@ This model helps companies:
 
 ---
 
-### 💡 Future Improvements
+### Future Improvements 💡 
 Implement SMOTE or other oversampling techniques
 
 Test ensemble methods like XGBoost or LightGBM

@@ -77,13 +77,12 @@ This model helps companies:
 
 
 ### Future Improvements 💡 
-Implement SMOTE or other oversampling techniques
 
-Test ensemble methods like XGBoost or LightGBM
-
-Deploy the model using Flask or Streamlit
-
-Build an interactive dashboard for business users
+1. Integrate the model into a live system to track active customers and generate real-time churn risk alerts
+   
+2. Explore more advanced models or AutoML solutions to further improve performance and scalability
+   
+3. Include additional data sources, like customer satisfaction surveys or support ticket sentiment, to enrich the model’s predictions
 
 
 ## Dataset Source

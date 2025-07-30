@@ -3,7 +3,6 @@
 
 Using real telecom data, I developed a predictive system that identifies customers likely to **cancel their service**. This is a crucial tool for any company that wants to **reduce losses and boost retention**.
 
----
 
 ## Why It Matters
 
@@ -16,7 +15,6 @@ This model helps companies:
 - **Personalize offers and support**
 - **Increase loyalty and revenue**
 
----
 
 ## Files in This Repo
 
@@ -25,13 +23,11 @@ This model helps companies:
 - `modelo_RedeNeural.ipynb` – neural network model (MLP)
 - `modelo_RL.ipynb` - Logistics Regression model 
 
----
 
 ## Dataset
 - `churn-bigml-80.csv` – main dataset for training
 - `churn-bigml-20.csv` – held-out test set
 
----
 
 ## What I Did
 
@@ -53,7 +49,7 @@ This model helps companies:
    - Final test used a separate dataset (`churn-bigml-20.csv`)  
    - Model generalized well and maintained performance
 
----
+
 
 ## Results (Random Forest)
 
@@ -66,7 +62,7 @@ This model helps companies:
 > **High recall means we correctly identified most churners**  
 > **High precision means we made few false churn predictions**
 
----
+
 
 ## Tech Stack
 
@@ -78,7 +74,7 @@ This model helps companies:
   - `MLPClassifier` (neural net), `RandomForestClassifier`  
 - **Notebook:** Jupyter
 
----
+
 
 ### Future Improvements 💡 
 Implement SMOTE or other oversampling techniques
@@ -89,14 +85,16 @@ Deploy the model using Flask or Streamlit
 
 Build an interactive dashboard for business users
 
----
 
 ## Dataset Source
 
 - This project uses the Orange Telecom Churn Dataset, available on Kaggle.
 - The data includes customer profiles and churn information, already cleaned and split into training (churn-bigml-80.csv) and test (churn-bigml-20.csv) sets.
 
----
+## Data Source
+
+The data used in this project was obtained from Kaggle:
+https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
 
 ## Author
 

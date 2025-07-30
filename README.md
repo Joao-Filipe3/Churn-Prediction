@@ -85,10 +85,6 @@ This model helps companies:
 3. Include additional data sources, like customer satisfaction surveys or support ticket sentiment, to enrich the model’s predictions
 
 
-## Dataset Source
-
-- This project uses the Orange Telecom Churn Dataset, available on Kaggle.
-- The data includes customer profiles and churn information, already cleaned and split into training (churn-bigml-80.csv) and test (churn-bigml-20.csv) sets.
 
 ## Data Source
 

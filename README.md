@@ -1,7 +1,5 @@
 # Churn Prediction – Orange Telecom
-
-**Can we predict which customers will leave a company?**  
-Yes — and in this project, I built a machine learning model to do exactly that.
+## This project applies Machine Learning techniques to predict customer churn in a telecommunications company, based on historical data.
 
 Using real telecom data, I developed a predictive system that identifies customers likely to **cancel their service**. This is a crucial tool for any company that wants to **reduce losses and boost retention**.
 
@@ -17,6 +15,21 @@ This model helps companies:
 - **Focus on high-risk customers**
 - **Personalize offers and support**
 - **Increase loyalty and revenue**
+
+---
+
+## Files in This Repo
+
+- `Churn_Proyecto.ipynb` – Main notebook with the full analysis and modeling pipeline
+- `modelo_RandomForest.ipynb` – detailed RF training
+- `modelo_RedeNeural.ipynb` – neural network model (MLP)
+- `modelo_RL.ipynb` - Logistics Regression model 
+
+---
+
+## Dataset
+- `churn-bigml-80.csv` – main dataset for training
+- `churn-bigml-20.csv` – held-out test set
 
 ---
 
@@ -64,17 +77,6 @@ This model helps companies:
   - `scikit-learn` – machine learning models  
   - `MLPClassifier` (neural net), `RandomForestClassifier`  
 - **Notebook:** Jupyter
-
----
-
-## Files in This Repo
-
-- `churn-bigml-80.csv` – main dataset for training
-- `churn-bigml-20.csv` – held-out test set
-- `Churn_Proyecto.ipynb` – full analysis + modeling
-- `modelo_RandomForest.ipynb` – detailed RF training
-- `modelo_RedeNeural.ipynb` – neural network version
-- `modelo_RL.ipynb` - Logistics Regression 
 
 ---
 
